@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 function theBeatlesPlay(musicians, instruments) {
   var x = [];
@@ -42,3 +43,15 @@ function iLoveTheBeatles(f) {
 
 
 
+=======
+function theBeatlesPlay(musicians, instruments) {
+  var x = [];
+  for (var i = 0; i < musicians.length; i++) {
+     x.unshift(musicians[i] + " plays " + instruments[i]);
+    console.log(x);
+    
+    
+  }
+  return x; 
+}
+>>>>>>> bc8766d11c411eec2c3ac4025da77362a14081fa
